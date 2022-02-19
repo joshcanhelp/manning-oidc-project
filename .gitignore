@@ -1,6 +1,7 @@
-solutions
-oidc-tools
-express-utility-routes
-manning-oidc-authorization-server
-manning-oidc-web-application
-manning-oidc-single-page-app
+_solutions/*.zip
+_oidc-tools
+_express-utility-routes
+authorization-server
+web-application
+single-page-app
+.DS_Store
