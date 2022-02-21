@@ -115,7 +115,7 @@ zip -r _solutions/manning-oidc-project-2-milestone-2-solution.zip ./ \
 
 git -C authorization-server checkout project-2-milestone-1-solution
 git -C web-application checkout project-2-milestone-2-partial
-zip -r _solutions/manning-oidc-project-2-milestone-2-solution.zip ./ \
+zip -r _solutions/manning-oidc-project-2-milestone-2-partial.zip ./ \
   -x "*.DS_Store" -x "*.gitignore" -x ".git/*" -x "*.sh" \
   -x "_solutions/*" -x "_oidc-tools/*" -x "_express-utility-routes/*" \
   -x "authorization-server/node_modules/*" \
