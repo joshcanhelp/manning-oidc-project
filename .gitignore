@@ -1,6 +1,7 @@
 _solutions/*.zip
 _oidc-tools
 _express-utility-routes
+_manning-starter-repos
 authorization-server
 web-application
 single-page-app
