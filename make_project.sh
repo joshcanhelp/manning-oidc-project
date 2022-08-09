@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm ./_solutions/*.zip
+
 ###
 ## Project 1
 #
