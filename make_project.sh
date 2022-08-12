@@ -112,22 +112,22 @@ zip -r _solutions/manning-oidc-project-2-milestone-4-partial.zip web-application
 
 git -C web-application checkout project-3-milestone-1-solution
 git -C web-application pull
-zip -r _solutions/manning-oidc-project-3-milestone-1-solution.zip web-application authorization-server \
+zip -r _solutions/manning-oidc-project-3-milestone-1-solution.zip web-application \
   -x "*/.git/*" -x "*/node_modules/*"
 
 git -C web-application checkout project-3-milestone-1-partial
 git -C web-application pull
-zip -r _solutions/manning-oidc-project-3-milestone-1-partial.zip web-application authorization-server \
+zip -r _solutions/manning-oidc-project-3-milestone-1-partial.zip web-application \
   -x "*/.git/*" -x "*/node_modules/*"
 
 git -C web-application checkout project-3-milestone-2-solution
 git -C web-application pull
-zip -r _solutions/manning-oidc-project-3-milestone-2-solution.zip web-application authorization-server \
+zip -r _solutions/manning-oidc-project-3-milestone-2-solution.zip web-application \
   -x "*/.git/*" -x "*/node_modules/*"
 
 git -C web-application checkout project-3-milestone-2-partial
 git -C web-application pull
-zip -r _solutions/manning-oidc-project-3-milestone-2-partial.zip web-application authorization-server \
+zip -r _solutions/manning-oidc-project-3-milestone-2-partial.zip web-application \
   -x "*/.git/*" -x "*/node_modules/*"
 
 git -C authorization-server checkout project-3-milestone-3-solution
